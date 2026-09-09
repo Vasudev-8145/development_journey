@@ -1,0 +1,43 @@
+scenerio-->largest number
+    step1: input num1
+    step2: input num2
+    step3: compare both values and find the largest
+    step4: print the largets number
+
+scenerio--->check number is positive
+
+    step1: input a number
+    step2: check the number
+    step3: if the number is greater than zero display positive
+
+scenerio--->check number is negetive
+
+    step1: input a number
+    step2: check the number less than zero then display -ve
+
+scenerio--->check number is zero
+
+    step1: input number
+    step2: check number if equal to zero then display number is 0
+
+scenerio--->largest of 3 numbers
+
+    step1: input 3 numbers as num1,num2,num3
+    step2: if num1>num2 and num1>num3 display num1 is largest
+    step3: if num2>num1 and num2>num3 display num2 is largest
+    step4: if num3>num2 and num3>num1 display num3 is largest
+
+scenerio-->number is even
+
+    step1: input number
+    step2: divide number by 2 and if the remainder is zero display even number
+
+
+scenerio-->number is odd
+
+    step1: input number
+    step2: divide number by 2 and if the remainder is not equal to zero display odd number
+
+
+
+

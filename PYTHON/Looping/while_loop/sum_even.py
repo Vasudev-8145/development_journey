@@ -1,0 +1,16 @@
+"""
+Display sum of even numbers from 10 to 50
+"""
+
+num = 10
+
+total = 0
+
+while num<=50:
+
+    if num%2==0:
+        total = total+num
+
+    num+=1
+
+print(total)

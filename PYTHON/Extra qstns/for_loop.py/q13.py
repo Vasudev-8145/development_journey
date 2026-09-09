@@ -1,0 +1,6 @@
+"""
+count prime numbers
+"""
+
+
+

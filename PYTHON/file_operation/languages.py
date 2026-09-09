@@ -1,0 +1,10 @@
+
+languauges = ["python","java","java script","c#","c++"]
+
+fw = open("file_operation\\languages.txt","w")
+
+for l in languauges:
+
+    fw.write(l+"\n")
+
+print("write completed....")
