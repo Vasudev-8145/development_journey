@@ -32,20 +32,18 @@ Armstrong number
 
 num = int(input("Enter a number:"))
 org_num = num
-count = len(str(num))
 sum = 0
+count = len(str(num))
 
 while num>0:
 
-    digit = num%10
-    exponent = digit**count
-    sum = sum+exponent
+    last_digit = num%10
+    exponent = last_digit**count
+    sum += exponent
     num = num//10
 
-print(f"sum = {sum}")
-
-if sum == org_num:
-    print("It is an armstrong number")
+if org_num==sum:
+    print("Armstorng number")
 
 else:
-    print("Not an armstrong number")
+    print("Not armstrong number")
