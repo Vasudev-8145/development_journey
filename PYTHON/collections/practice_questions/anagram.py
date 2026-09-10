@@ -20,6 +20,7 @@ for i in range(0,len(words)):
         w2 = words[j]
 
         if sorted(w1) == sorted(w2) and w1!=w2:
+
             anagrams.add(w1)
             anagrams.add(w2)
 

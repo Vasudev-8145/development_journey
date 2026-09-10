@@ -12,13 +12,13 @@ write a program to print least +ve missing number
 
 arr = [1,2,4,5]
 
-max_num = max(arr)
+arr_sum = sum(arr)
+
 total = 0
 
-for num in range(1,max_num+1):
-    total +=num
+for num in range(0,(max(arr))+1):
 
-arr_sum = sum(arr)
+    total += num
 
 missing_num = total-arr_sum
 

@@ -29,5 +29,6 @@ Method 2
 #     difference = target-num
 
 #     if difference in arr and difference!=num:
-#         print(num,difference)
+
+#         print(f"two pairs are {difference},{num}")
 #         break
